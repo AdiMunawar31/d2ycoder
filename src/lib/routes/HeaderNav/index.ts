@@ -2,12 +2,12 @@ export const navigation = [
   {
     id: "0",
     title: "Features",
-    url: "#features",
+    url: "/features",
   },
   {
     id: "1",
     title: "Pricing",
-    url: "#pricing",
+    url: "/pricing",
   },
   {
     id: "2",
@@ -22,13 +22,13 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "/signup",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
+    url: "/signin",
     onlyMobile: true,
   },
 ];

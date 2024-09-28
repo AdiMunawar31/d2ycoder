@@ -6,8 +6,9 @@ import { navigation } from "@/lib/routes/HeaderNav";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import Button from "./Button";
-import { HamburgerMenu } from "./design/Header";
+import Button from "../customs/Button";
+import { HamburgerMenu } from "./home/design/Header";
+import Link from "next/link";
 
 const Header = () => {
   const pathname = useRouter();
@@ -37,13 +38,13 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a
+        <Link
           className="flex items-center justify-center w-[12rem] xl:mr-8"
-          href="#hero"
+          href="/"
         >
           <img src={d2ycoder.src} width={50} height={20} alt="d2ycoder" />
           <span className="ml-2 font-bold text-lg">d2ycoder</span>
-        </a>
+        </Link>
 
         <nav
           className={`${
@@ -52,7 +53,7 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
@@ -63,7 +64,7 @@ const Header = () => {
                 } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
-              </a>
+              </Link>
             ))}
           </div>
 

@@ -1,5 +1,5 @@
-import Section from "./Section";
-import Heading from "./Heading";
+import Section from "../Section";
+import Heading from "../Heading";
 import { service1, service2, service3, check } from "@/assets";
 import { brainwaveServices, brainwaveServicesIcons } from "@/lib/data";
 import {
