@@ -1,6 +1,6 @@
-import Button from "./Button";
-import Heading from "./Heading";
-import Section from "./Section";
+import Button from "../../customs/Button";
+import Heading from "../Heading";
+import Section from "../Section";
 import Tagline from "./Tagline";
 import { roadmap } from "@/lib/data";
 import { check2, grid, loading1 } from "@/assets";

@@ -1,8 +1,8 @@
 "use client";
 
 import { curve, heroBackground, robot } from "@/assets";
-import Button from "./Button";
-import Section from "./Section";
+import Button from "../../customs/Button";
+import Section from "../Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "@/lib/data";
 import { ScrollParallax } from "react-just-parallax";

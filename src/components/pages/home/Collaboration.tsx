@@ -1,7 +1,7 @@
 import { d2ycoder, check } from "@/assets";
 import { collabApps, collabContent, collabText } from "@/lib/data";
-import Button from "./Button";
-import Section from "./Section";
+import Button from "../../customs/Button";
+import Section from "../Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {

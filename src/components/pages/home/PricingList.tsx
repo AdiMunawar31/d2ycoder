@@ -1,6 +1,6 @@
 import { check } from "@/assets";
 import { pricing } from "@/lib/data";
-import Button from "./Button";
+import Button from "../../customs/Button";
 
 const PricingList = () => {
   return (
