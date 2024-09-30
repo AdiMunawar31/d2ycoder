@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/pages/Header";
 import Footer from "@/components/pages/Footer";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "D2YCODER",
@@ -22,6 +23,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <Toaster />
         <ButtonGradient />
       </body>
     </html>

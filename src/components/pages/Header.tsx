@@ -71,13 +71,13 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
+        <Link
+          href="/auth/sign-up"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
-        </a>
-        <Button px={"px-10"} className="hidden lg:flex" href="#login">
+        </Link>
+        <Button px={"px-10"} className="hidden lg:flex" href="/auth/sign-in">
           Sign in
         </Button>
 
