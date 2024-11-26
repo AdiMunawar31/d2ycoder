@@ -78,7 +78,7 @@ const FormJsonBeauty = () => {
         >
           Clear
         </button>
-          <Button px={"px-9"} className="flex">
+          <Button px={"px-9"} className="flex" onClick={handleBeautify}>
             beautify
           </Button>
           <Arrow />
